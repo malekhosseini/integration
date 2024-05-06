@@ -18,7 +18,6 @@ int main()
         sum=sum + f(xi);
     }
     sum=sum*dx;
-
-cout<< "sum= "<<sum<<endl;
-return 1;
+    cout<< "sum= "<<sum<<endl;
+    return 1;
 }
