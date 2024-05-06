@@ -12,7 +12,8 @@ int main()
     double x0=0,xn=3.141592654;
     int n=10;
     double dx=(xn-x0)/n;
-    for(int i=0;i<n;i++)
+    sum = (f(x0)+f(xn))*0.5;
+    for(int i=1;i<n-1;i++)
     {
         sum=sum + f(xi);
     }
